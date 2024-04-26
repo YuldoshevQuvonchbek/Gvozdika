@@ -1,0 +1,122 @@
+.main {
+  background-color: #fffcfa;
+}
+
+.abaut_page_name {
+  display: flex;
+  gap: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.abaut_page_name__text2 {
+  color: #bababa;
+  font-size: 14px;
+  font-weight: 500;
+}
+.abaut_page_name__text {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+.blog_title {
+  color: #03453b;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 100%;
+  padding-bottom: 30px;
+}
+.abaut_blog__item {
+  max-width: 310px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+}
+.abaut_blog__item_cart {
+  padding: 20px;
+}
+.abaut_blog__title {
+  color: #03453b;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.abaut_blog__text {
+  color: #333;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 5px;
+}
+.abaut_blog__box {
+  display: flex;
+  justify-content: space-between;
+}
+.abaut_blog__box_text {
+  color: #03453b;
+  font-size: 14px;
+  font-weight: 400;
+}
+.abaut_blog__item2 {
+  max-width: 640px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+}
+.abaut_blog__text2 {
+  color: #333;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+
+.abaut_blog__list {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.abaut_blog__img_mobile {
+  display: none;
+}
+.abaut_blog__btn {
+  padding: 15px 35px;
+  color: #03453b;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: 1px solid var(--green, #03453b);
+}
+.abaut_blog__btn_box {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 683px) {
+  .abaut_blog__list {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 663px) {
+  .abaut_blog__list {
+    justify-content: center;
+  }
+  .abaut_blog__img1 {
+    display: none;
+  }
+  .abaut_blog__img_mobile {
+    display: inline-block;
+  }
+  .abaut_blog__item2 {
+    max-width: 310px;
+  }
+  .abaut_blog__text2 {
+    margin-bottom: 5px;
+  }
+  .abaut_blog__item {
+    margin-bottom: 10px;
+  }
+}

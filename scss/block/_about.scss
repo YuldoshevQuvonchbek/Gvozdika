@@ -1,0 +1,103 @@
+.contalog {
+  background-color: #fffcfa;
+  background-repeat: no-repeat;
+  background-image: url(/img/cotolog-bg-img1.svg);
+  background-position: top right;
+}
+
+.home_features {
+  padding-top: 50px;
+  padding-bottom: 102px;
+  background-color: #fffcfa;
+}
+
+.home_features__list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.home_features__item1 {
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.home_features__item {
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+
+  &::before {
+    display: inline-block;
+    content: "";
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-image: url(/img/feature1.svg);
+  }
+}
+
+.home_features__item_title {
+  color: #03453b;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.home_features__item1 {
+  position: relative;
+
+  &::before {
+    display: inline-block;
+    content: "";
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-image: url(/img/feature10.svg);
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .home_features__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .home_features__item {
+    width: 22%;
+  }
+
+  .item2 {
+    width: 31.5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .item2 {
+    width: 31%;
+  }
+  .contalog {
+    background-image: url();
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .home_features__list {
+    display: none;
+  }
+}

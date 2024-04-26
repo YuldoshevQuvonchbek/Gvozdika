@@ -1,0 +1,247 @@
+.header_top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.header_top__seleck_cart {
+  display: flex;
+  align-items: center;
+}
+.header_top__seleck_cart2,
+.header_top__cart3 {
+  display: flex;
+  align-items: center;
+}
+.header_top__seleck {
+  border: none;
+}
+.header_top__option {
+  color: var(--black, #333);
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header_top__seleck_cart {
+  position: relative;
+  padding-left: 32px;
+}
+.header_top__seleck_cart::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(/img/header-top-lokishen.svg);
+  background-position: center;
+  left: 0;
+}
+.header_top__seleck_cart2 {
+  gap: 15px;
+}
+.header_top__cart3_text2 {
+  color: #333;
+  font-family: PT Sans;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 32px;
+}
+.header_top__cart3_text {
+  color: #333;
+  font-family: PT Sans;
+  font-size: 14px;
+  padding-right: 10px;
+  font-weight: 400;
+}
+.header_top__cart3_icon_box {
+  display: flex;
+  gap: 10px;
+}
+.header_top__cart3_btn {
+  margin-left: 28px;
+  margin-right: 30px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  background-color: #b9956f;
+  color: #ebebeb;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+.header_top__cart3__seleck {
+  border: none;
+}
+.header_buttum {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #03453b;
+}
+.header_buttum__btn {
+  width: 28px;
+  height: 28px;
+  background-repeat: no-repeat;
+  background-image: url(/img/ucer.svg);
+}
+.header_buttum__nummer_box {
+  display: flex;
+  gap: 32px;
+}
+.header_buttum_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_buttum__nummer_icon {
+  position: relative;
+}
+.header_buttum__nummer_icon::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(/img/header-btn-tel.svg);
+  left: -32px;
+  top: -5px;
+}
+.header_buttum_Input_box {
+  border-radius: 4px;
+  border: 1px solid #bababa;
+  overflow: hidden;
+  position: relative;
+}
+.header_buttum_Input {
+  padding: 12px 249px 13px 12px;
+  border: none;
+  background-color: transparent;
+}
+.header_buttum_Input_box::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(/img/header-zum.svg);
+  top: 5px;
+  right: 5px;
+}
+.header_buttum__icons_box {
+  display: flex;
+  margin-left: -15px;
+  align-items: center;
+}
+.header_buttum__btn {
+  margin-left: 15px;
+}
+.header_buttum__nummer_icon {
+  color: #ebebeb;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header_buttum__btn_text {
+  color: #ebebeb;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 2px;
+}
+.header_buttum__nummer_box {
+  padding-left: 15px;
+}
+.header_buttum__nummer_box_res {
+  display: none;
+}
+.header_top {
+  align-items: center;
+}
+.header_buttum_Input_box_rec {
+  display: none;
+}
+
+//
+@media screen and (max-width: 1307px) {
+  .header_buttum__nummer_box {
+    display: none;
+  }
+}
+@media screen and (max-width: 1202px) {
+  .header_top__seleck_cart2 {
+    display: none;
+  }
+  .header_buttum__nummer_box_res {
+    display: block;
+  }
+  .header_buttum__nummer_icon {
+    color: #333;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .header_top__cart3_icon_box {
+    display: none;
+  }
+}
+@media screen and (max-width: 783px) {
+  .header_top__cart3_text,
+  .header_top__cart3_text2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 729px) {
+  .header_buttum_Input_box {
+    display: none;
+  }
+  .header_buttum_Input_box_rec {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #bababa;
+  }
+  .header_buttum_Input_res {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .header_buttum_Input_box_rec {
+    border-radius: 4px;
+    border: 1px solid #bababa;
+    overflow: hidden;
+    position: relative;
+  }
+  .header_buttum_Input_box_rec::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(/img/header-zum.svg);
+    top: 5px;
+    right: 5px;
+  }
+}
+@media screen and (max-width: 579px) {
+  .header_top__cart3_btn {
+    display: none;
+  }
+  .header_buttum__nummer_box_res {
+    padding-right: 35px;
+  }
+  .header_buttum_Input {
+    padding: 12px 13px;
+    width: 100%;
+    display: block;
+  }
+  .header_buttum_Input_res,
+  .header_buttum_Input_box_rec {
+    width: 100%;
+  }
+  .header_buttum__btn {
+    margin-left: 0;
+  }
+  .header_buttum__nummer_box_res {
+    padding-right: 15px;
+  }
+  .header_buttum_logo {
+    width: 134px;
+  }
+}

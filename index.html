@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./css/main.css" />
   <title>Document</title>
 </head>
@@ -11,11 +14,684 @@
 <body>
   <div class="wrapper">
     <header>
+      <div class=" container header_top">
+        <div class="header_top__seleck_cart">
+          <select class="header_top__seleck">
+            <option class="header_top__option" value="Минск">Минск</option>
+            <option class="header_top__option" value="Минск">Минск</option>
+          </select>
+        </div>
+        <div class="header_top__seleck_cart2">
+          <select class="header_top__seleck">
+            <option value="магазине">О магазине</option>
+            <option value="магазине">О магазине</option>
+          </select>
+          <select class="header_top__seleck">
+            <option value="Доставка">Доставка</option>
+            <option value="Доставка">Доставка</option>
+          </select>
+          <p>Блог</p>
+          <p>Отзывы</p>
+          <select class="header_top__seleck">
+            <option value="Контакты">Контакты</option>
+            <option value="Контакты">Контакты</option>
+          </select>
+
+        </div>
+
+
+
+        <div class="header_top__cart3">
+          <p class="header_top__cart3_text">Доставка</p>
+          <p class="header_top__cart3_text2">Пн-Пт 8.00 - 22.00
+            <br>
+            Сб- Вс 10.00 - 22.00
+          </p>
+          <div class="header_buttum__nummer_box_res">
+            <a class="header_buttum__nummer_icon" href="#">8-0297-177-888</a>
+          </div>
+          <div class="header_top__cart3_icon_box">
+            <a class="header_top__cart3_icon" href="#">
+              <img src="./img/telegram.svg" alt="logo">
+            </a>
+            <a class="header_top__cart3_icon" href="#">
+              <img src="./img/telegram.svg" alt="logo">
+            </a>
+            <a class="header_top__cart3_icon" href="#">
+              <img src="./img/telegram.svg" alt="logo">
+            </a>
+            <a class="header_top__cart3_icon" href="#">
+              <img src="./img/telegram.svg" alt="logo">
+            </a>
+          </div>
+          <a class="header_top__cart3_btn" href="#">Оптовым клиентам</a>
+          <select class="header_top__cart3__seleck">
+            <option value="RU">RU</option>
+            <option value="UZ">UZ</option>
+          </select>
+        </div>
+      </div>
+      <div class=" header_buttum">
+        <div class="container header_buttum_container">
+          <a href="#">
+            <img class="header_buttum_logo" src="./img/logo.svg" alt="logo">
+          </a>
+          <div class="header_buttum__nummer_box">
+            <a class="header_buttum__nummer_icon" href="#">8-0297-177-888</a>
+            <a class="header_buttum__nummer_icon" href="#">8-0257-177-888</a>
+            <a class="header_buttum__nummer_icon" href="#">8-0447-833-777</a>
+
+          </div>
+          <div class="header_buttum_Input_box">
+            <input class="header_buttum_Input" placeholder="Найти букет..." type="text">
+          </div>
+          <div class="header_buttum__icons_box">
+            <a class="header_buttum__btn" href="#"></a>
+            <a class="header_buttum__btn" href="#"></a>
+            <a class="header_buttum__btn" href="#">
+            </a>
+            <a class="header_buttum__btn_text" href="#">Пусто</a>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+      <div class="container header_buttum_Input_res ">
+        <div class="header_buttum_Input_box_rec">
+          <input class="header_buttum_Input" placeholder="Найти букет..." type="text">
+        </div>
+      </div>
     </header>
     <main>
+
+      <section class="hero">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="hero__img" src="./img/hero-bg-img.jpg" class="d-block w-100" alt="..." />
+              <div class="container hero__container">
+                <div class="hero__content">
+                  <h1 class="hero__title">
+                    Дарим красоту и хорошее настроение вашему дому
+                  </h1>
+                  <p class="hero__text">
+                    Специально для Вас — быстрая доставка и отличные цены
+                  </p>
+                  <a href="./contact.html" class="hero__btn">Заказать букет</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="hero__img" src="./img/hero-bg-img.jpg" class="d-block w-100" alt="..." />
+              <div class="container hero__container">
+                <div class="hero__content">
+                  <h1 class="hero__title">
+                    Дарим красоту и хорошее настроение вашему дому
+                  </h1>
+                  <p class="hero__text">
+                    Специально для Вас — быстрая доставка и отличные цены
+                  </p>
+                  <a href="./contact.html" class="hero__btn">Заказать букет</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="hero__img" src="./img/hero-bg-img.jpg" class="d-block w-100" alt="..." />
+              <div class="container hero__container">
+                <div class="hero__content">
+                  <h1 class="hero__title">
+                    Дарим красоту и хорошее настроение вашему дому
+                  </h1>
+                  <p class="hero__text">
+                    Специально для Вас — быстрая доставка и отличные цены
+                  </p>
+                  <a href="./contact.html" class="hero__btn">Заказать букет</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- hero the end -->
+
+      <section class="contalog">
+        <div class="container home_features">
+          <ul class="home_features__list">
+            <li class="home_features__item">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item home_features__item1">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item item2">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item item2">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+            <li class="home_features__item item2">
+              <p class="home_features__item_title">
+                Букеты
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class=" special_offer">
+            <div class="special_offer__box">
+              <h2 class="special_offer__box_title">Специальное предложение</h2>
+              <p class="special_offer__box__text">*На товары раздела скидка не распространяется</p>
+            </div>
+            <p class="special_offer__text  responsiv">Перейти в каталог</p>
+
+
+          </div>
+
+          <ul class="special_offer__list">
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+          </ul>
+
+          <div class="the_day">
+
+            <h2 class="the_day__title">Предложения дня</h2>
+
+            <p class="special_offer__text the_day__text ">Перейти в каталог</p>
+
+
+          </div>
+          <ul class="special_offer__list">
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+          </ul>
+
+
+          <div class="the_day">
+
+            <h2 class="the_day__title">Предложения дня</h2>
+
+            <p class="special_offer__text the_day__text ">Перейти в каталог</p>
+
+
+          </div>
+          <ul class="special_offer__list">
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+          </ul>
+          <div class="the_day">
+
+            <h2 class="the_day__title">Предложения дня</h2>
+
+            <p class="special_offer__text the_day__text ">Перейти в каталог</p>
+
+
+          </div>
+          <ul class="special_offer__list">
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+          </ul>
+
+          <div class="the_day">
+
+            <h2 class="the_day__title">Предложения дня</h2>
+
+
+
+          </div>
+          <ul class="special_offer__list">
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item Новинка active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит active_heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+            <li class="special_offer__item xит heart">
+              <img class="special_offer__item_img" src="./img/VAL_8182_12001.jpg" alt="img">
+              <p class="special_offer__item_text">Букет «Cчастье» Букет «Cчастье» Букет «Cчастье»</p>
+              <p class="special_offer__item_text2">125 BYN</p>
+              <a class="special_offer__item_btn" href="#">Заказать</a>
+              <p class="special_offer__item_text3">Купить в 1 клик</p>
+            </li>
+
+
+
+
+
+          </ul>
+        </div>
+      </section>
+
+      <!--  -->
+      <section class="profitable">
+        <div class="profitable__wrapper">
+          <div class="container home_banner">
+            <h2 class="profitable__title">C нами выгодно</h2>
+            <ul class="profitable__list">
+              <li class="profitable__item">
+                <h2 class="profitable__item__title">Оплата на сайте</h2>
+                <p class="profitable__item_text">
+                  Оплатить заказ можно наличными, либо банковской картой
+                  или через систему ЕРИП
+                </p>
+              </li>
+              <li class="profitable__item">
+                <h2 class="profitable__item__title">Оплата на сайте</h2>
+                <p class="profitable__item_text">
+                  Оплатить заказ можно наличными, либо банковской картой
+                  или через систему ЕРИП
+                </p>
+              </li>
+              <li class="profitable__item">
+                <h2 class="profitable__item__title">Оплата на сайте</h2>
+                <p class="profitable__item_text">
+                  Оплатить заказ можно наличными, либо банковской картой
+                  или через систему ЕРИП
+                </p>
+              </li>
+              <li class="profitable__item">
+                <h2 class="profitable__item__title">Оплата на сайте</h2>
+                <p class="profitable__item_text">
+                  Оплатить заказ можно наличными, либо банковской картой
+                  или через систему ЕРИП
+                </p>
+              </li>
+              <li class="profitable__item">
+                <h2 class="profitable__item__title">Оплата на сайте</h2>
+                <p class="profitable__item_text">
+                  Оплатить заказ можно наличными, либо банковской картой
+                  или через систему ЕРИП
+                </p>
+              </li>
+              <li class="profitable__item">
+                <h2 class="profitable__item__title">Оплата на сайте</h2>
+                <p class="profitable__item_text">
+                  Оплатить заказ можно наличными, либо банковской картой
+                  или через систему ЕРИП
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="colors">
+        <div class="container colorc_contianer">
+          <h2 class="colorc_contianer__title">Только у нас вы найдете богатый ассортимент цветов</h2>
+          <div class="colorc_contianer__cart">
+            <img class="colorc_contianer__cart_img" src="./img/flover.jpg" alt="img">
+            <img class="colorc_contianer__cart_img_responsiv" src="./img/mobile-img.jpg" alt="img">
+            <div class="colorc_contianer__cart_box">
+              <p class="colorc_contianer__cart_box_text">Жизнь слишком коротка, чтобы ограничиваться такими праздниками
+                как 8 марта, 14 февраля, день Матери
+                и дни рождения! Наши
+                любимые дамы заслуживают гораздо больше внимания, а аленький цветочек из нашего ассортимента поможет
+                вам в этом Доставка
+                цветов по Минску — ваше лучшее решение!</p>
+              <p class="colorc_contianer__cart_box_text">Если вдруг у вас не получается подарить букет лично, наша
+                гибкая система доставки поможет вам. Создание
+                букета —
+                не простое задание.</p>
+            </div>
+          </div>
+          <div class="colorc_contianer__cart2">
+            <div class="colorc_contianer__cart2_text_box">
+              <p class="colorc_contianer__cart2_text">Для заказа необходимо учитывать ваши персональные отношения
+                с адресатом, статус человека, возраст
+                и это только малая
+                часть критериев, по которым наши высококвалифицированные специалисты быстро, качественно и красиво
+                соберут
+                и оформят
+                ваш заказ.
+                Так, романтичным натурам подойдут букеты в нежной гамме с зелёными и розовыми оттенками. Истинным леди
+                придутся по вкусу
+                букеты с прямыми линиями и строгими формами. Страстная особа обрадуется бордовой гамме цветов,
+                а творческие личности
+                оценят букет из подсолнухов. Традиционные тюльпаны дарят на ставшие привычными праздники — 8 Марта
+                и День
+                учителя. Букет
+                – это молчаливое восхищение. Мы поможем вам выразить чувства.
+                Надо поздравить любимого человека, а вы в другом городе? Нет проблем! Сотрудники Gvozdika.by сделают
+                это за вас!
+                Достаточно сделать заказ — и интернет-магазин цветов и подарков Gvozdika.by привезёт выбранный вами
+                букет
+                в любой район
+                Минска через час-два с момента заказа,а доставку по Беларуси осуществим в течении суток!</p>
+            </div>
+
+            <div class="colorc_contianer__cart2_img_box">
+              <img class="colorc_contianer__cart2_img" src="./img/flores2.jpg" alt="img">
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
     </main>
   </div>
   <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
